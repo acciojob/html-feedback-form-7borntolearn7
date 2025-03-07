@@ -8,24 +8,25 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
-		<div>
-		  <label for="name">Name</label>
-		  <input type="text" id="name" minlength="3" maxlength="50" name="portfolio" required></input>
-		</div>
-		<div>
-		  <label for="portfolio">Portfolio</label>
-		  <input type="url" id="portfolio" name="portfolio" minlength="3" maxlength="50" required></input>
-		</div>
-		<div>
-		  <label for="favColor">Favourite Color</label>
-		  <input type="color" id="favColor" name="favColor" minlength="3" maxlength="50" required></input>
-		</div>
-		<div>
-		  <label for="likeness">Likeness</label>
-		  <input type="range" name="likeness" id="likeness" min="1" max="100" required></input>
-		</div>
-	</form>
+	 <form method="post">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" minlength="3" maxlength="50" name="name" required>
+        </div>
+        <div>
+            <label for="portfolio">Portfolio</label>
+            <input type="url" id="portfolio" name="portfolio" minlength="3" maxlength="50" required>
+        </div>
+        <div>
+            <label for="favColor">Favourite Color</label>
+            <input type="color" id="favColor" name="favColor" required>
+        </div>
+        <div>
+            <label for="likeness">Likeness</label>
+            <input type="range" name="likeness" id="likeness" min="1" max="100" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
     <script type="text/javascript" src="./script.js">
  </script>
 </body>
